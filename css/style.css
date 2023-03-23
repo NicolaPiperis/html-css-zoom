@@ -22,13 +22,31 @@
 /* header row style */
     #top-row{
         width: 100%;
-        height: 60px;
+        height: 100%px;
         background-color: rgb(3, 97, 97);
-        position: absolute;
-        top: 0;
-        right: 0;
         display: flex;
+        align-content: space-around;
+        justify-content: flex-end;
+       
     }
+
+    .mini{
+        background-color: #4a4a4a;
+        color: white;
+        border: none;
+        padding: 5px;
+        border-radius: 8px;
+        
+        
+    }
+
+    #top-tools{
+        font-size: 15px;
+        
+    }
+
+
+    
 
 /* footer rows style */
 
@@ -44,6 +62,14 @@
     align-items: center;
 }
 
+ .item{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+} 
+
+
 #call-settings {
     display: flex;
     justify-content: space-between;
@@ -53,12 +79,7 @@
     
 }
 
-.item{
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    cursor: pointer;
-}
+
 
 #tools{
     display: flex;
