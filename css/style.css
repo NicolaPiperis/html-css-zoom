@@ -116,6 +116,7 @@ main{
     gap: 14px;
     flex-basis: 200px;
     padding-left: 10px;
+    align-items: center;
     
 }
 
@@ -127,6 +128,7 @@ main{
     gap: 14px;
     flex-basis: 800px;
     padding-left: 10px;
+    align-items: center;
 }
 
 #exit{
