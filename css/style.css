@@ -20,30 +20,49 @@
 }
 
 /* header row style */
-    #top-row{
-        width: 100%;
-        height: 100%px;
-        background-color: rgb(3, 97, 97);
-        display: flex;
-        align-content: space-around;
-        justify-content: flex-end;
-       
-    }
 
-    .mini{
-        background-color: #4a4a4a;
-        color: white;
-        border: none;
-        padding: 5px;
-        border-radius: 8px;
-        
-        
-    }
+#top-row{
+    width: 100%;
+    height: 100%px;
+    background-color: rgb(3, 97, 97);
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-end;
+   
+}
 
-    #top-tools{
-        font-size: 15px;
-        
-    }
+.mini{
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;   
+}
+
+#top-tools{
+    font-size: 15px;
+    
+}
+
+
+/* main style */
+
+main{
+    height: 100vh;
+    width: 90%;
+    margin: 20px auto;
+    overflow: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.utent{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
 
 
     
